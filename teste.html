@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Adicione os links para os arquivos CSS do Bootstrap 4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <form id="dumForm">
+      <div class="form-group">
+        <label for="dumDate">Data da última menstruação (DUM)</label>
+        <input type="date" class="form-control" id="dumDate" required>
+      </div>
+      <button type="button" class="btn btn-primary" onclick="calcularProximoPeriodo()">Calcular</button>
+    </form>
+    <div class="mt-3" id="resultado"></div>
+  </div>
+
+  <!-- Adicione os links para os arquivos JS do Bootstrap 4 e o jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+    function calcularProximoPeriodo() {
+      // Obtém a data da DUM do campo de entrada
+      const dumInput = document.getElementById('dumDate');
+      const dumValue = dumInput.value;
+
+      // Faça aqui o cálculo desejado com a data da DUM
+      // Por exemplo, a data estimada para o próximo período
+
+      // Exemplo: Adicione 28 dias para obter a data estimada do próximo período
+      const proximoPeriodo = new Date(dumValue);
+      proximoPeriodo.setDate(proximoPeriodo.getDate() + 28);
+
+      // Exibe o resultado no elemento de resultado
+      const resultadoElement = document.getElementById('resultado');
+      resultadoElement.innerHTML = `Data estimada do próximo período: ${proximoPeriodo.toLocaleDateString()}`;
+    }
+  </script>
+</body>
+</html>
