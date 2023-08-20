@@ -29,16 +29,23 @@
 
 <body>
 	<div id="header"></div>
-
 	<section class="caixa"><!--Inicio seção saiba  -->
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 d-flex">
 					<div class="align-self-center">
 						<h2>Controle Glicêmico</h2>
-						<div class="jumbotron">
-							<p class="display-4">Em construção</p>
-						</div>
+						<form id="dumForm">
+							<div class="form-group">
+							  <label for="age">Idade:</label>
+							  <input type="number" class="form-control" id="age" required>
+							  <label for="rightHanded">Destro:</label>
+							  <input type="number" class="form-control" id="rightHanded" required>
+							  <label for="fast">Jejum:</label>
+							  <input type="number" class="form-control" id="fast" required>
+							</div>
+							<button type="button" class="btn btn-primary" onclick="controleGlicemia()">Verificar</button>
+						</form>
 					</div>
 				</div>
 				<div class="col-md-6">
