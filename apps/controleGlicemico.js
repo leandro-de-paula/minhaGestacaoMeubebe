@@ -93,7 +93,18 @@ function controleGlicemia() {
                            '<p>No entanto, é importante notar que os valores de referência podem ser diferentes em diferentes faixas etárias e podem ser ajustados por um profissional de saúde de acordo com a situação clínica específica da criança.</p>' +
                            '<small><strong>Mantenha em mente que a monitorização da glicemia e a interpretação dos resultados devem ser feitas por um médico ou profissional de saúde qualificado, especialmente no caso de crianças. Se você estiver preocupado com os níveis de glicose no sangue de uma criança, é recomendável procurar orientação médica para avaliação e aconselhamento adequados.</strong></small>';
             } else {
-                var text =  "Glicemia pós-prandial baixa para crianças";
+                var text =  '<h4 class="lead">Resultado:</h4>' +
+                '<h3 class="display-5">Glicemia pós-prandial baixa para crianças</h3><hr>' +
+                '<h5>Orientações:</h5>' +
+                '<p>A glicemia pós-prandial baixa em crianças ocorre quando os níveis de glicose no sangue de uma criança estão abaixo do intervalo considerado saudável após uma refeição. Normalmente, isso é medido algumas horas após a ingestão de alimentos. Baixos níveis de glicose pós-prandial em crianças podem ter várias causas, incluindo:</p>' +
+                '<ul>' +
+                  '<li>Excesso de atividade física: A criança pode ter queimado mais glicose do que a quantidade consumida na refeição.</li>' +
+                  '<li>Falta de ingestão adequada de carboidratos: Se a criança não ingerir uma quantidade suficiente de carboidratos durante a refeição, isso pode resultar em baixos níveis de glicose no sangue após a digestão.</li>' +
+                  '<li>Administração inadequada de insulina (em casos de diabetes): Se a criança tem diabetes e recebeu uma dose excessiva de insulina, isso pode levar a níveis baixos de glicose após a refeição.</li>' +
+                  '<li>Outros distúrbios metabólicos: Algumas condições médicas podem afetar o metabolismo da glicose em crianças e levar a níveis baixos de glicose pós-prandial.</li>' +
+                '</ul>' +
+                '<p>É importante monitorar e tratar adequadamente os baixos níveis de glicose pós-prandial em crianças, pois isso pode causar sintomas como tontura, fraqueza, sudorese excessiva e, em casos graves, até desmaio.</p>' +
+                '<small><strong>Se você estiver preocupado com os níveis de glicose do seu filho, é essencial consultar um profissional de saúde para avaliação e orientação adequada.</strong></small>';
             }
         } else {
             // Adultos
