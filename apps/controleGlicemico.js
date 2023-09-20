@@ -109,7 +109,18 @@ function controleGlicemia() {
         } else {
             // Adultos
             if (rightHanded > 140) {
-                var text =  "Glicemia pós-prandial alta para adultos";
+                var text =  '<h4 class="lead">Resultado:</h4>' +
+                '<h3 class="display-5">Glicemia pós-prandial alta para adultos</h3><hr>' +
+                '<h5>Orientações:</h5>' +
+                '<p>A glicemia pós-prandial alta em adultos ocorre quando os níveis de glicose no sangue aumentam significativamente após uma refeição.</p>' +
+                '<p>Isso geralmente é medido algumas horas após a ingestão de alimentos. Uma glicemia pós-prandial alta pode ser indicativa de resistência à insulina, pré-diabetes ou diabetes.</p>' +
+                '<ul>' +
+                  '<li><strong>Resistência à insulina:</strong> Pessoas com resistência à insulina têm dificuldade em usar eficazmente a insulina, o hormônio responsável por controlar os níveis de glicose no sangue. Como resultado, após a ingestão de alimentos, os níveis de glicose no sangue tendem a permanecer elevados por mais tempo.</li>' +
+                  '<li><strong>Pré-diabetes:</strong> Níveis elevados de glicose pós-prandial podem ser um sinal de pré-diabetes. Isso significa que a pessoa está em risco aumentado de desenvolver diabetes tipo 2 no futuro, mas ainda não atingiu o diagnóstico completo da doença.</li>' +
+                  '<li><strong>Diabetes:</strong> Em pessoas com diabetes, a glicemia pós-prandial alta é comum, especialmente se a doença não estiver bem controlada. Isso ocorre porque o corpo não produz insulina suficiente ou não a utiliza adequadamente para regular os níveis de glicose no sangue após as refeições.</li>' +
+                '</ul>' +
+                '<p>É importante que as pessoas com glicemia pós-prandial alta trabalhem em estreita colaboração com seus profissionais de saúde para controlar e gerenciar seus níveis de glicose no sangue. Isso geralmente envolve modificações na dieta, aumento da atividade física, medicamentos (se necessário) e monitoramento frequente dos níveis de glicose. O tratamento visa manter os níveis de glicose no sangue dentro de faixas saudáveis para evitar complicações relacionadas ao diabetes.</p>' +
+                '<small><strong>Consultar um médico é fundamental para um diagnóstico preciso e um plano de tratamento adequado.</strong></small>';
             } else if (rightHanded >= 70 && rightHanded <= 140) {
                 var text =  "Glicemia pós-prandial normal para adultos";
             } else {
