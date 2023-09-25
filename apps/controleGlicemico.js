@@ -122,7 +122,17 @@ function controleGlicemia() {
                 '<p>É importante que as pessoas com glicemia pós-prandial alta trabalhem em estreita colaboração com seus profissionais de saúde para controlar e gerenciar seus níveis de glicose no sangue. Isso geralmente envolve modificações na dieta, aumento da atividade física, medicamentos (se necessário) e monitoramento frequente dos níveis de glicose. O tratamento visa manter os níveis de glicose no sangue dentro de faixas saudáveis para evitar complicações relacionadas ao diabetes.</p>' +
                 '<small><strong>Consultar um médico é fundamental para um diagnóstico preciso e um plano de tratamento adequado.</strong></small>';
             } else if (rightHanded >= 70 && rightHanded <= 140) {
-                var text =  "Glicemia pós-prandial normal para adultos";
+                var text =  '<h4 class="lead">Resultado:</h4>' +
+                '<h3 class="display-5">Glicemia pós-prandial normal para adultos</h3><hr>' +
+                '<h5>Orientações:</h5>' +
+                '<p>A glicemia pós-prandial normal para adultos, ou seja, os níveis normais de glicose no sangue após uma refeição, geralmente devem ficar dentro de uma faixa específica para garantir a saúde metabólica.</p>' +
+                '<p>Os valores normais de glicose pós-prandial podem variar um pouco entre diferentes fontes e laboratórios, mas, em geral, a seguinte faixa é considerada saudável:</p>' +
+                '<ul>' +
+                  '<li>Glicose Capilar (obtida através de um medidor de glicose): 1 a 2 horas após uma refeição: Menos de 140 mg/dL (7,8 mmol/L)</li>' +
+                  '<li>Glicose Venosa (obtida a partir de exames de sangue em laboratório): 2 horas após uma refeição: Menos de 140 mg/dL (7,8 mmol/L)</li>' +
+                '</ul>' +
+                '<p>Lembre-se de que esses valores são gerais e podem variar de acordo com as diretrizes médicas e as condições individuais de saúde. Portanto, é importante consultar um médico ou profissional de saúde para uma avaliação completa e discussão sobre os seus resultados de glicemia.</p>' +
+                '<small><strong>Se você tiver preocupações com relação à sua glicemia ou diabetes, um médico será capaz de fornecer orientações específicas com base no seu histórico médico e necessidades individuais.</strong></small>';
             } else {
                 var text =  "Glicemia pós-prandial baixa para adultos";
             }
