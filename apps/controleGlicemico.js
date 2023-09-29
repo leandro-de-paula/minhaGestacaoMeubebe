@@ -134,7 +134,22 @@ function controleGlicemia() {
                 '<p>Lembre-se de que esses valores são gerais e podem variar de acordo com as diretrizes médicas e as condições individuais de saúde. Portanto, é importante consultar um médico ou profissional de saúde para uma avaliação completa e discussão sobre os seus resultados de glicemia.</p>' +
                 '<small><strong>Se você tiver preocupações com relação à sua glicemia ou diabetes, um médico será capaz de fornecer orientações específicas com base no seu histórico médico e necessidades individuais.</strong></small>';
             } else {
-                var text =  "Glicemia pós-prandial baixa para adultos";
+                var text =  '<h4 class="lead">Resultado:</h4>' +
+                '<h3 class="display-5">Glicemia pós-prandial baixa para adultos</h3><hr>' +
+                '<h5>Orientações:</h5>' +
+                '<p>A glicemia pós-prandial baixa em adultos, também conhecida como hipoglicemia pós-prandial, ocorre quando o nível de açúcar no sangue fica abaixo do normal após uma refeição.</p>' +
+                '<p>Normalmente, após a ingestão de alimentos, os níveis de glicose no sangue aumentam devido à absorção dos carboidratos. No entanto, em algumas situações, os níveis de glicose podem cair abaixo do normal, o que pode causar sintomas de hipoglicemia.</p>' +
+                '<p>As causas da glicemia pós-prandial baixa em adultos podem incluir:</p>' +
+                '<ul>' +
+                  '<li><strong>Medicação para Diabetes:</strong> O uso excessivo de medicamentos para diabetes, como insulina ou alguns medicamentos hipoglicemiantes orais, pode fazer com que os níveis de açúcar no sangue caiam demais após uma refeição.</li>' +
+                  '<li><strong>Exercício Físico Excessivo:</strong> Realizar exercícios intensos antes ou após uma refeição sem ajustar a medicação ou a ingestão de carboidratos pode levar a níveis baixos de glicose no sangue.</li>' +
+                  '<li><strong>Má Alimentação:</strong> Pular refeições ou não consumir carboidratos suficientes durante uma refeição pode resultar em hipoglicemia após as refeições.</li>' +
+                  '<li><strong>Alcoolismo:</strong> O consumo excessivo de álcool pode afetar a regulação da glicose no sangue e levar a episódios de hipoglicemia pós-prandial.</li>' +
+                  '<li><strong>Distúrbios Gastrointestinais:</strong> Alguns distúrbios gastrointestinais, como gastrectomia (remoção do estômago) ou doença celíaca não controlada, podem afetar a absorção de nutrientes e causar hipoglicemia após as refeições.</li>' +
+                '</ul>' +
+                '<p>Os sintomas de glicemia pós-prandial baixa podem incluir tontura, sudorese, fraqueza, confusão, palpitações, fome intensa e, em casos graves, perda de consciência.</p>' +
+                '<p>Se você ou alguém que você conhece está enfrentando episódios frequentes de hipoglicemia pós-prandial, é importante procurar ajuda médica. O tratamento envolverá identificar a causa subjacente e fazer ajustes na medicação, na dieta e no estilo de vida, conforme necessário, para manter os níveis de açúcar no sangue dentro da faixa normal.</p>' +
+                '<small><strong>O acompanhamento médico é fundamental para um controle adequado do diabetes e da glicemia pós-prandial.</strong></small>';
             }
         }
     }
